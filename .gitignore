@@ -1,0 +1,17 @@
+# Ignore sensitive environment data
+.env
+
+# Ignore vendor dependencies
+vendor/
+
+# Ignore log files
+logs/
+cache/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
