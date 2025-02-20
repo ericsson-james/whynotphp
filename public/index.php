@@ -1,9 +1,7 @@
 <?php
 declare(strict_types=1);
 
-require_once __DIR__ . '/../config/config.php'; // load configuration
 require_once __DIR__ . '/../config/routes.php'; // load routes
-require_once __DIR__ . '/../vendor/autoload.php'; // Composer autoload (if used)
 
 // Start a secure session.
 session_start([
